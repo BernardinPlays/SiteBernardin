@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:url(./img/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 105%;
+}
+
+img{
+    height: 280px;
+    width: 500px;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+div{
+    width: 500px;
+    background-color: rgba(20, 20, 20, 0.993);
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+}
+
+div iframe{
+    width: 100%;
+}
